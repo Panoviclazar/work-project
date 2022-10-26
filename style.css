@@ -1,0 +1,262 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.video-cont{
+  text-decoration: none;
+  color: black;
+}
+.cont{
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid gray;
+  padding-inline: 75px;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.title{
+  width: 720px;
+  text-align: center;
+  line-height: 30px;
+}
+.watch-now{
+  font-weight: bold;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 20px;
+  padding-inline: 145px;
+  font-size: 30px;
+  background-color: rgba(0, 128, 0, 0.808);
+  color: white;
+  border: none;
+  pointer-events: none;
+  box-shadow: 0px 0px 5px rgb(102, 173, 99);
+}
+.top-dent{
+  font-size: 22px; width: 210px; margin-top: 20px;
+}
+.bed-time{
+  font-size: 22px; width: 210px; margin-top: 30px;
+}
+.longterm{
+  font-size: 22px; width: 210px; margin-top: 30px;
+}
+.learn{
+  font-size: 22px; width: 210px; margin-top: 30px;
+}
+.in-this-video{
+  width:750px; display: flex; flex-direction: column;
+}
+.learn-title{
+  margin-top: 30px; align-self: center;
+}
+.restore{
+  margin-top: 30px; align-self: center;
+}
+.ul1{
+  margin-top: 30px; font-size:25px;
+  list-style: none;
+}
+li{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  line-height: 40px;
+}
+li::before{
+  content: "•";
+  font-size: 50px;
+}
+.links{
+  display: flex; gap:5px; font-size:13px; margin-top: 140px;
+}
+.slika3{
+  display: none;
+}
+.slika{
+  margin-top: 40px; 
+  border: 2px solid grey; 
+  border-radius: 20px; 
+  overflow: hidden;
+}
+.slika:hover{
+  border: 2px solid black; 
+}
+.disclaimer{
+  margin-top: 270px; width:770px; color: gray; text-align: center; font-size: 13px; line-height: 30px;
+}
+.disclaimer2{
+  display: none;
+}
+.disclosure{
+  margin-top: 50px; width:770px; color: gray; text-align: center; font-size: 13px; line-height: 30px;
+}
+.advert{
+  margin-top: 30px; width:770px; color: gray; text-align: center; font-size: 13px;line-height: 30px;
+}
+.copy{
+  margin-top: 20px; width:770px; color: gray; text-align: center; font-size: 13px;line-height: 30px;
+}
+.sponsor{
+  margin-top: 10px; width:770px; color: gray; text-align: center; font-size: 13px;line-height: 30px;
+}
+.blog{
+  margin-top: 50px; width:770px; color: gray; text-align: center; font-size: 13px;line-height: 30px;
+}
+.end{
+  margin-top: 15px; width:770px; color: gray; text-align: center; font-size: 13px;line-height: 30px; margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+body{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-cont{
+  text-decoration: none;
+  color: black;
+}
+.cont{
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid gray;
+  padding-inline: 5px;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.title{
+  width: 370px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 25px;
+}
+.watch-title{
+  font-size: 25px;
+}
+.watch-now{
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 20px;
+  padding-inline: 120px;
+  font-size: 20px;
+  background-color: rgba(0, 128, 0, 0.808);
+  color: white;
+  border: none;
+  pointer-events: none;
+  box-shadow: 0px 0px 5px rgb(102, 173, 99);
+}
+.slika1{
+  margin-top: 20px;
+  width: 370px;
+}
+.top-dent{
+  font-size: 25px; width: 360px; margin-top: 10px;
+}
+.bed-time{
+  font-size: 25px; width: 360px; margin-top: 40px;
+}
+.longterm{
+  font-size: 25px; width: 360px; margin-top: 40px;
+}
+.learn{
+  font-size: 25px; width: 360px; margin-top: 40px;
+}
+.in-this-video{
+  width:380px; display: flex; flex-direction: column;
+  text-align: center; font-size: 22px;
+}
+.learn-title{
+  margin-top: 30px; align-self: center;
+}
+.restore{
+  margin-top: 30px; align-self: center; font-size: 30px; 
+}
+.ul1{
+  margin-top: 30px; font-size:25px;
+  list-style: none;
+}
+li{
+  margin-top: 20px;
+  display: flex;
+  align-items: start;
+  gap: 5px;
+  line-height: 25px;
+  font-size: 28px;
+  text-align: left;
+}
+li:last-child{
+  margin-bottom: 50px;
+}
+li::before{
+  content: "•";
+  font-size: 50px;
+}
+.slika2{
+  width: 380px;
+}
+.links{
+  display: flex; gap:5px; font-size:13px; margin-top: 80px; margin-bottom: 100px;
+}
+.slika3{
+  display: block;
+  width: 80px;
+}
+.slika4{
+  width: 380px;
+}
+.slika{
+  margin-top: 10px; 
+  border: 1px solid grey; 
+  border-radius: 5px; 
+  overflow: hidden;
+}
+.slika:hover{
+  border: 2px solid black; 
+}
+.disclaimer{
+  margin-top: 30px; width:380px; color: gray; text-align: center; font-size: 12px; line-height: 25px; display: none;
+
+}
+.disclosure{
+  margin-top: 30px; width:380px; color: gray; text-align: center; font-size: 17px; line-height: 27px;
+}
+.disclaimer2{
+  margin-top: 30px; width:380px; color: gray; text-align: center; font-size: 17px; line-height: 27px; display: block;
+}
+.advert{
+  margin-top: 30px; width:380px; color: gray; text-align: center; font-size: 17px; line-height: 27px;
+}
+.copy{
+  margin-top: 30px; width:380px; color: gray; text-align: center; font-size: 17px; line-height: 27px;
+}
+.sponsor{
+  margin-top: 30px; width:380px; color: gray; text-align: center; font-size: 17px; line-height: 27px;
+}
+.blog{
+  margin-top: 30px; width:380px; color: gray; text-align: center; font-size: 17px; line-height: 27px;
+}
+.end{
+  margin-top: 30px; width:380px; color: gray; text-align: center; font-size: 17px; line-height: 27px;
+}
+.slika5{
+  display: none;
+}
+}
